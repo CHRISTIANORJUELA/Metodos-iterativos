@@ -1,0 +1,22 @@
+    """"
+    Matriz de 4:
+
+    listFunciones.append("(42-3*x2-12*x3-1*x4)/11")
+    listFunciones.append("(5-5*x1-8*x3+5*x4)/23")
+    listFunciones.append("-((7-4*x1+10*x2-8*x4)/(20))")
+    listFunciones.append("(21-5*x1-7*x2+2*x3)/10")
+
+    Matriz de 3:
+
+    listFunciones.append("(-2 - 2*x2 +x3)/9");
+    listFunciones.append("(3 -7*x1-5*x3)/8");
+    listFunciones.append("-((6 -3*x1 -4*x2)/(10))"); 
+    
+    """
+
+    Metodo de Jacobi:
+
+    funcion: 
+    x^3 -0.39*x^2 -10.5*x +11
+    funcion Despejada:
+    ((x^3 -0.39*x^2 +11)/(10.5))

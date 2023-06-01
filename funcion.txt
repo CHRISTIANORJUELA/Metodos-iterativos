@@ -1,0 +1,15 @@
+intervalo = list();
+       rango_inferior = limiteInferior
+       rango_superior = limiteSuperior
+       diferencia = abs((rango_inferior)-(rango_superior));
+       if(diferencia<1.0):
+          diferenciaComvertido = diferencia*10;
+          intervalo.append(rango_inferior);
+          for i in range(int(diferenciaComvertido)):
+           intervalo.append(round(intervalo[len(intervalo)-1]+0.1),1);
+       else:
+          intervalo.append(rango_inferior);
+          for i in range(int(diferencia*10)):
+            intervalo.append(round(intervalo[len(intervalo)-1]+0.1),1); 
+       print(intervalo);
+       return intervalo;
